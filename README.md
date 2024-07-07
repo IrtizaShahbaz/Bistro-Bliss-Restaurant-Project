@@ -1,7 +1,7 @@
 # Restaurant Frontend Project
 ## Overview
 
-![Web App Screenshot](img/RestrauntWEB (Project-1).png)
+![Web App Screenshot](img/preview.png)
 
 The Restaurant Frontend Project! This project showcases a fully responsive and user-friendly restaurant website, built using HTML, CSS, and JavaScript. The website features five main pages, each designed with a modern and appealing UI/UX to enhance the user experience.
 
