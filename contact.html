@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Bistro Bliss | Contact</title>
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="bar">
+                    <div class="bar-left">
+                        <ul>
+                            <li><a href="tel:#"><i class="fas fa-phone-alt"></i> +123 456 7890</a></li>
+                            <li><a href="mailto:#"><i class="fas fa-envelope"></i>yummy@gmal.com</a></li>
+                    </div>
+                    <div class="bar-right">
+                        <ul>
+                            <li><i class="fa-brands fa-x-twitter"></i></li>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-github"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="container">
+                <div id="desktop-menu" class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+                    </div>
+
+                    <div class="nav-center">
+                        <ul>
+                            <li><a id="home-btn" href="index.html">Home</a></li>
+                            <li><a id="about-btn" href="about.html">About</a></li>
+                            <li><a id="menu-btn" href="menu.html">Menu</a></li>
+                            <li><a id="pages-btn" href="pages.html">Pages</a></li>
+                            <li><a id="contact-btn" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-right">
+                        <a href="reservation.html" class="btn">Reservation</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="mob-menu" class="mob-nav">
+                <div class="container">
+                    <div class="mob-nav-content">
+
+                        <i onclick="toggleMenu()" id="bars" class="fa-solid fa-bars"></i>
+
+                        <div id="mob-logo" class="logo">
+                            <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+                        </div>
+
+                        <div class="mob-nav-menu">
+                            <i onclick="toggleMenu()" id="close-bar" class="fa-solid fa-xmark"></i>
+                            <div class="nav-center">
+                                <ul>
+                                    <li><a id="home-btn" href="/index.html">Home</a></li>
+                                    <li><a id="about-btn" href="/about.html">About</a></li>
+                                    <li><a id="menu-btn" href="/menu.html">Menu</a></li>
+                                    <li><a id="pages-btn" href="/pages.html">Pages</a></li>
+                                    <li><a id="contact-btn" href="/contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="nav-right">
+                                <a href="reservation.html" class="btn">Reservation</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <div class="container">
+                <div class="contact">
+                    <div class="res-content">
+                        <h2>Contact Us</h2>
+                        <p>We consider all the drivers of change gives you the components you need to change to create a
+                            truly happens.</p>
+                    </div>
+
+                    <div class="res-form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col">
+                                    <span>Name</span>
+                                    <input class="form-inp" type="name" placeholder="Enter Your Name" required>
+                                </div>
+                                <div class="col">
+                                    <span>Email</span>
+                                    <input class="form-inp " type="email" placeholder="Enter Your Email" required>
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div id="cont-sub" class="col">
+                                <span>Subject</span>
+                                <input type="text" placeholder="Wriet a Subject">
+                            </div>
+
+                            <div id="cont-msg" class="col">
+                                <span>Message</span>
+                                <textarea rows="6" required> </textarea>
+                            </div>
+
+                            <button id="res-btn" type="submit">Sumbit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="cont-info">
+            <div class="container">
+                <div class="cont-info">
+                    <div class="call">
+                        <h3>Call Us:</h3>
+                        <span>+123 456 7890</span>
+                    </div>
+                    <div class="hour">
+                        <h3>Hours:</h3>
+                        <div class="col">
+                            <span>Mon-Fri: 11am - 8pm</span>
+                            <span>sat,Sun: 9am - 10pm</span>
+                        </div>
+                    </div>
+                    <div class="loc">
+                        <h3>Location:</h3>
+                        <span>123 Bridge Street<br>Nowhere Land, LA 12345<br>United States</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="top row">
+
+                    <div class="col-1 col">
+                        <img src="img/Logo (white).png" alt="">
+                        <p>In the new era of technology we look<br>a in the future with certainty and pride <br> to for
+                            our
+                            company and.</p>
+                        <div class="col-1-icons">
+                            <ul class="row">
+                                <li><i class="fa-brands fa-x-twitter"></i></li>
+                                <li><i class="fa-brands fa-facebook-f"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-github"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-2 col">
+                        <h3>Pages</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="pages.html">Blogs</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="reservation.html">Reservation</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-3 col">
+                        <h3>Follow Us on Instagram</h3>
+                        <div class="col-3-insta">
+                            <div class="row">
+                                <img src="img/footer-insta1.png" alt="">
+                                <img src="img/footer-insta2.png" alt="">
+                            </div>
+                            <div class="row">
+                                <img src="img/footer-insta3.png" alt="">
+                                <img src="img/footer-insta4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span id="line"></span>
+                <div class="bottom-row">
+                    <p>Copyright © 2024 Irtiza Shahbaz. All Rights Reserved</p>
+                </div>
+            </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
